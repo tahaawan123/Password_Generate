@@ -1,15 +1,18 @@
-Password Generator using Streamlit
+Password Generator & Strength Checker
 
-This is a simple password generator built using Python and Streamlit. The app allows users to generate strong passwords based on their preferences, such as including digits and special characters.
+Overview
+
+This is a Streamlit web application that allows users to generate strong passwords and check the strength of their own passwords. It ensures security by verifying password length, the presence of special characters, uppercase letters, lowercase letters, and numbers.
 
 Features
 
-✅ Generate passwords of customizable length (8 to 25 characters).
-✅ Option to include digits (0-9).
-✅ Option to include special characters (e.g., !@#$%^&*).
-✅ User-friendly interface with an interactive slider and checkboxes.
-✅ Styled UI with CSS for a better experience.
-✅ Built using Streamlit for quick and easy deployment.
+Password Generator: Generates a secure password based on user preferences.
+
+Password Strength Checker: Evaluates password strength based on predefined security criteria.
+
+Interactive UI: Built with Streamlit for an easy-to-use interface.
+
+
 
 Installation
 
@@ -20,3 +23,43 @@ Clone this repository:
 Install required dependencies:   pip install streamlit
 
 Run the following command to start the Streamlit app:    streamlit run app.py
+
+
+Usage
+
+Adjust the slider to set the password length.
+
+Check the boxes to include digits and special characters.
+
+Click the Generate Password button to create a random password.
+
+Enter a password in the Password Strength Checker field and click Check Strength to evaluate it.
+
+
+Password Strength Criteria
+
+A password is considered strong if it meets all of the following requirements:
+
+Minimum 8 characters
+
+At least one special character (!@#$%^&* etc.)
+
+At least one uppercase letter (A-Z)
+
+At least one lowercase letter (a-z)
+
+At least one digit (0-9)
+
+Technologies Used
+
+Python
+
+Streamlit
+
+Random & String Modules
+
+Author
+
+Made with ❤️ by [Taha Awan]
+
+
