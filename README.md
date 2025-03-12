@@ -4,7 +4,7 @@ This is a simple password generator built using Python and Streamlit. The app al
 
 Features
 
-✅ Generate passwords of customizable length (6 to 25 characters).
+✅ Generate passwords of customizable length (8 to 25 characters).
 ✅ Option to include digits (0-9).
 ✅ Option to include special characters (e.g., !@#$%^&*).
 ✅ User-friendly interface with an interactive slider and checkboxes.
